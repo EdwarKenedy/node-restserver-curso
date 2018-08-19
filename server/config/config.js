@@ -16,7 +16,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 // 60 minutos
 // 24 horas
 // 30 días
-process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+process.env.CADUCIDAD_TOKEN = '48h';
 
 // =========================
 // SEED de autentificación
@@ -42,5 +42,3 @@ process.env.URLDB = urlDB;
 process.env.CLIENT_ID =
   process.env.CLIENT_ID ||
   '56181258163-pd4359nha3uk03ciocef9f08r4lirhcd.apps.googleusercontent.com';
-
-console.log(process.env.CLIENT_ID);
